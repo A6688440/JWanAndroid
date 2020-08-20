@@ -1,0 +1,2 @@
+rootProject.name='JWanAndroid'
+include ':app'

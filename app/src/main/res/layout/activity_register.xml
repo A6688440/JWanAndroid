@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="注册"
+        android:textColor="@color/colorPrimary"
+        android:textSize="42sp" />
+
+    <EditText
+        android:id="@+id/mEditUserName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:hint="请输入用户名"
+        android:lines="1" />
+
+    <EditText
+        android:id="@+id/mEditPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:lines="1" />
+
+    <EditText
+        android:id="@+id/mReEditPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入确认密码"
+        android:inputType="textPassword"
+        android:lines="1" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/mBtnRegisterOk"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@color/aqua"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
